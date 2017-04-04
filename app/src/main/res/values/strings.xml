@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Drive Safe</string>
+    <string name="sms_label">Latest SMS</string>
+    <string name="none">None</string>
+    <string name="speech_toggle_on">START SPEAKING</string>
+    <string name="speech_toggle_off">STOP SPEAKING</string>
+    <string name="start_speaking">Aplikasi diaktifkan </string>
+    <string name="stop_speaking">aplikasi di nonaktifkan </string>
+    <string name="panduan1">selamat datang di halaman panduan aplikasi.
+untuk mengaktifkan service aplikasi anda dapat menekan tombol On
+pada halaman utama aplikasi, setelah aktif maka anda dapat mendengarkan
+notifikasi SMS dan panggilan telepon
+ </string>
+
+    <string name="panduanCustom1_a">Saat ini pengaturan respon anda berada pada pilihan Custom 1.
+
+untuk menerima telepon. lambaikan tangan ke proximity 2 kali.
+untuk menolak telepon. Lambaikan tangan ke proximity 1 kali.
+untuk Mematikan telepon. Lambaikan tangan ke proximity 1 kali.
+</string>
+    <string name="panduanCustom1_b">
+
+untuk Membalas SMS. lambaikan tangan ke proximity 2 kali.
+untuk menolak membalas SMS. Lambaikan tangan ke proximity 1 kali.
+    </string>
+
+    <string name="panduanCustom1_c">
+
+untuk menyetujui pengiriman SMS. Lambaikan tangan ke proximity 2 kali.
+untuk Menolak mengirimkan SMS. Lambaikan tangan ke proximity 1 kali.
+untuk Mengulangi pilih Keyword. Lambaikan tangan ke proximity 3 kali.
+    </string>
+
+    <string name="panduanCustom2_a">Custom 2
+
+untuk menerima telepon. lambaikan tangan ke proximity 1 kali.
+untuk menolak telepon.  Lambaikan tangan ke proximity 2 kali.
+untuk Mematikan telepon. Lambaikan tangan ke proximity 1 kali.
+</string>
+
+    <string name="panduanCustom2_b">
+untuk Membalas SMS. lambaikan tangan ke proximity 1 kali.
+untuk menolak membalas SMS. Lambaikan tangan ke proximity 2 kali.
+</string>
+    <string name="panduanCustom2_c">
+untuk menyetujui pengiriman SMS.Lambaikan tangan ke proximity 1 kali.
+untuk Menolak mengirimkan SMS.Lambaikan tangan ke proximity 2 kali.
+untuk Mengulangi pilih Keyword. Lambaikan tangan ke proximity 3 kali.
+</string>
+    <string name="panduanModeHapal">Mode Hapal keyword:
+ Anda berada pada pengaturan pemilihan Keyword mode hapal keyword:
+aplikasi langsung meminta respon, dan lambaikan tangan ke sensor sesuai dengan urutan keyword.
+</string>
+    <string name="panduanModeDefault">
+    Anda berada pada pengaturan pemilihan Keyword mode default:
+Aplikasi membacakan keyword lalu kemudian disediakan waktu  5 detik setelah keyword dibacakan untuk melambaikan tangan 1 kali ke sensor untuk memilih keyword yang baru saja dibacakan.
+    </string>
+    <string name="panduan10"></string>
+
+
+    <string-array name="speedAlias">
+        <item>Lambat</item>
+        <item>Normal</item>
+        <item>Cepat</item>
+    </string-array>
+    <string-array name="speed">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>2.0</item>
+    </string-array>
+
+
+
+<string name="hello">
+Here is the first paragraph.\n\n And this should be the second.
+</string>
+
+
+</resources>

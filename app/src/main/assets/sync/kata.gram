@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = oh    |
+          nol   |
+          satu  |
+          dua   |
+          tiga  |
+          empat |
+          lima  |
+          enam  |
+          tujuh |
+          delapan |
+          sembilan  ;
+
+public <digits> = <digit>+;

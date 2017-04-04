@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Pengaturan" >
+        <CheckBoxPreference
+            android:key="checkBoxModeHafal"
+            android:summary="Untuk memilih keyword dekatkan tangan ke sensor sesuai dengan urutan keyword"
+            android:title="Mode hapal keyword"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:key="radio"
+        android:title="Custom respon"
+        android:summary="pilih jenis pengaturan respon"
+        android:defaultValue="custom 1"
+        android:entryValues="@array/pref_values"
+        android:entries="@array/pref_options"
+        />
+
+</PreferenceScreen>

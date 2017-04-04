@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:weightSum="1">
+    <TextView
+        android:id="@+id/textViewPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Nomor Telepon : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <TextView
+        android:id="@+id/editTextPhoneNo"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewSMS"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Pesan : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/editTextSMS"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="7.16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="detik"
+        android:id="@+id/textDetikSMS"
+        android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.23"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Kirim"
+        android:background="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0"/>
+
+
+
+    </LinearLayout>

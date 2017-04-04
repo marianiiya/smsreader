@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/detail"
+        android:title="Edit Keyword"
+       />
+    <item android:id="@+id/update"
+
+        android:title="Hapus Keyword" />
+    <item android:id="@+id/help"
+
+        android:title="Hapus Keyword" />
+</menu>
